@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+"stm32l152re_nucleo\main.o"
+"stm32l152re_nucleo\stm32l1xx_it.o"
+"stm32l152re_nucleo\stm32l1xx_ll_utils.o"
+"stm32l152re_nucleo\stm32l1xx_ll_dma.o"
+"stm32l152re_nucleo\startup_stm32l152xe.o"
+"stm32l152re_nucleo\system_stm32l1xx.o"
+--library_type=microlib --strict --scatter "STM32L152RE_NUCLEO\STM32L152RE_NUCLEO.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32L152RE_NUCLEO.map" -o STM32L152RE_NUCLEO\STM32L152RE_NUCLEO.axf

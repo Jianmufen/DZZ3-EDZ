@@ -1,0 +1,13 @@
+"E:\ruanjian\IAR\arm\bin\armproc.dll" 
+
+"E:\ruanjian\IAR\arm\bin\armstlink.dll" 
+
+"C:\Users\Administrator\Desktop\Application\STM32Cube_FW_L1_V1.6.0\Projects\STM32L152C-Discovery\Templates\EWARM\STM32L152C-Discovery\Exe\Project.out" 
+
+--plugin "E:\ruanjian\IAR\arm\bin\armbat.dll" 
+
+--flash_loader "E:\ruanjian\IAR\arm\config\flashloader\" 
+
+
+
+

@@ -1,0 +1,13 @@
+"D:\Program Files (x86)\IAR\ARM\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR\ARM\arm\bin\armstlink.dll" 
+
+"C:\Users\Administrator.USER-20170908FT\Desktop\Application\2017-09-29\STM32Cube_FW_L1_V1.6.0\Projects\NMDT_ADAM\Applications\FreeRTOS\FreeRTOS_ThreadCreation\EWARM\STM32L152C-Discovery\Exe\Project.out" 
+
+--plugin "D:\Program Files (x86)\IAR\ARM\arm\bin\armbat.dll" 
+
+--flash_loader "D:\Program Files (x86)\IAR\ARM\arm\config\flashloader\" 
+
+
+
+

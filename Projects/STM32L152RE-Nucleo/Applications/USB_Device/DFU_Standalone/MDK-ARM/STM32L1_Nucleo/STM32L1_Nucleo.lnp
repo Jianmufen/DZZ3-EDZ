@@ -1,0 +1,32 @@
+--cpu Cortex-M3
+"stm32l1_nucleo\startup_stm32l152xe.o"
+"stm32l1_nucleo\stm32l1xx_hal_flash.o"
+"stm32l1_nucleo\stm32l1xx_hal_dma.o"
+"stm32l1_nucleo\stm32l1xx_hal_cortex.o"
+"stm32l1_nucleo\stm32l1xx_hal_gpio.o"
+"stm32l1_nucleo\stm32l1xx_hal_pwr_ex.o"
+"stm32l1_nucleo\stm32l1xx_ll_sdmmc.o"
+"stm32l1_nucleo\stm32l1xx_hal_sd.o"
+"stm32l1_nucleo\stm32l1xx_hal_flash_ex.o"
+"stm32l1_nucleo\stm32l1xx_hal_rcc.o"
+"stm32l1_nucleo\stm32l1xx_hal_pwr.o"
+"stm32l1_nucleo\stm32l1xx_hal_pcd_ex.o"
+"stm32l1_nucleo\stm32l1xx_hal.o"
+"stm32l1_nucleo\stm32l1xx_hal_pcd.o"
+"stm32l1_nucleo\stm32l1xx_hal_i2c.o"
+"stm32l1_nucleo\usbd_dfu_flash.o"
+"stm32l1_nucleo\usbd_conf.o"
+"stm32l1_nucleo\main.o"
+"stm32l1_nucleo\stm32l1xx_it.o"
+"stm32l1_nucleo\usbd_desc.o"
+"stm32l1_nucleo\usbd_dfu.o"
+"stm32l1_nucleo\system_stm32l1xx.o"
+"stm32l1_nucleo\usbd_core.o"
+"stm32l1_nucleo\usbd_ctlreq.o"
+"stm32l1_nucleo\usbd_ioreq.o"
+"stm32l1_nucleo\stm32l1xx_nucleo.o"
+--library_type=microlib --strict --scatter "STM32L1_Nucleo\STM32L1_Nucleo.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32L1_Nucleo.map" -o STM32L1_Nucleo\STM32L1_Nucleo.axf

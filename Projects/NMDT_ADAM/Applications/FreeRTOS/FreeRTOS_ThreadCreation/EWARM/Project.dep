@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>498344774</fileChecksum>
+  <configuration>
+    <name>STM32L152C-Discovery</name>
+    <outputs>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\tasks.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\Project.pbd</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Exe\STM32L152C_DISCOVERY.hex</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\timers.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\Inc\stm32l1xx_hal_conf.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L1xx\Include\stm32l152xc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h</file>
+      <file>$PROJ_DIR$\..\Inc\main.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc.h</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Exe\Project.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\StackMacros.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32L152C-Discovery\stm32l152c_discovery.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\portmacro.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\task.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\list.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\Inc\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\..\Src\main.c</file>
+      <file>$PROJ_DIR$\startup_stm32l152xc.s</file>
+      <file>$PROJ_DIR$\..\Src\stm32l1xx_it.c</file>
+      <file>$PROJ_DIR$\..\Src\system_stm32l1xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32L152C-Discovery\stm32l152c_discovery.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\port.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\portasm.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\list.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_gpio.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_pwr.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_rcc.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l152c_discovery.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_rcc_ex.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\main.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\tasks.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\system_stm32l1xx.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_it.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_cortex.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_pwr_ex.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\heap_4.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\cmsis_os.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\list.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l152c_discovery.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_cortex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\portasm.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\timers.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\port.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_pwr_ex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\startup_stm32l152xc.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\system_stm32l1xx.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\queue.o</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_it.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\cmsis_os.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_rcc.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_gpio.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_pwr.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\stm32l1xx_hal_rcc_ex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152C-Discovery\Obj\heap_4.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\STM32L152C-Discovery\Exe\Project.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 19 15 11 12 96 7 14 21 20 18 10 17 16 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_stm32l152xc.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\stm32l1xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 19 15 11 12 96 7 14 21 20 18 10 17 16 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\system_stm32l1xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 14 96 17 11 12 7 19 13 9 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32L152C-Discovery\stm32l152c_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 19 15 11 12 96 7 14 21 20 18 10 17 26 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 41 96 14 29 42 40 17 10 38 37 36 43 39 7 19 13 9 35 34 44 33 32 31 30 28 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32 96 14 7 13 9 19 17 43 39 36 10 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 7 96 12 8 19 14 21 20 18 10 17 15 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 7 96 12 8 19 14 21 20 18 10 17 15 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 7 96 12 8 19 14 21 20 18 10 17 15 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 7 96 12 8 19 14 21 20 18 10 17 15 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 7 96 12 8 19 14 21 20 18 10 17 15 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 7 96 12 8 19 14 21 20 18 10 17 15 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 7 96 12 8 19 14 21 20 18 10 17 15 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 8 21 20 18 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 33 19 35 14 17 44 41 43 7 13 9 37 29 42 24 10 31 30 28 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 96 14 7 13 9 19 17 43 35 37 10 44 31 29 33 30 27 28 41 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 96 44 19 28 41 37 29 43 7 9 14 10 35 31 17 30 27 42 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 96 35 37 14 7 13 9 19 17 43 10 44 31 29 33 30 28 41 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\portasm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 31 28 96 19 14 42 43 7 9 10 35 17 37 44 29 30 27 24 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 96 14 7 13 9 19 17 43 35 37 10 44 31 29 33 30 27 28 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 31 41 14 96 19 30 27 32 35 25 43 7 9 10 28 24 17 39 37 44 29 33 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 96 14 7 13 9 19 17 43 32 39 35 37 10 44 31 29 33 30 27 28 41 42 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 14 39 41 19 13 31 23 96 32 35 40 7 9 43 10 30 27 24 17 37 44 29 33 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 96 14 7 13 9 19 17 43 32 39 35 37 10 44 31 29 33 30 27 28 41 42 40 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 14 43 25 17 29 35 19 37 42 41 40 7 13 9 44 33 24 10 31 30 28 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 96 14 7 13 9 19 17 43 35 37 10 44 31 29 33 30 27 28 41 42 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

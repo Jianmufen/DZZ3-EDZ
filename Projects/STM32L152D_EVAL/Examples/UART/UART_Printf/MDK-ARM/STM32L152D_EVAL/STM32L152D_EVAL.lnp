@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+"stm32l152d_eval\startup_stm32l152xd.o"
+"stm32l152d_eval\stm32l1xx_hal_msp.o"
+"stm32l152d_eval\main.o"
+"stm32l152d_eval\stm32l1xx_it.o"
+"stm32l152d_eval\system_stm32l1xx.o"
+"stm32l152d_eval\stm32l1xx_hal_rcc.o"
+"stm32l152d_eval\stm32l1xx_hal_gpio.o"
+"stm32l152d_eval\stm32l1xx_hal_dma.o"
+"stm32l152d_eval\stm32l1xx_hal_uart.o"
+"stm32l152d_eval\stm32l1xx_hal.o"
+"stm32l152d_eval\stm32l1xx_hal_rcc_ex.o"
+"stm32l152d_eval\stm32l1xx_hal_cortex.o"
+"stm32l152d_eval\stm32l1xx_hal_pwr.o"
+"stm32l152d_eval\stm32l1xx_hal_pwr_ex.o"
+"stm32l152d_eval\stm32l152d_eval.o"
+--library_type=microlib --strict --scatter "STM32L152D_EVAL\STM32L152D_EVAL.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32L152D_EVAL.map" -o STM32L152D_EVAL\STM32L152D_EVAL.axf

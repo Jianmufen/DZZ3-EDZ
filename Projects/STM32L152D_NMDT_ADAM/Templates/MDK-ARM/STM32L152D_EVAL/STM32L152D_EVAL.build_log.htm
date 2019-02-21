@@ -1,0 +1,278 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: alientek ALIENTEK, alientek, LIC=P6F30-B6QWQ-NSTYQ-NADBU-EHBEX-H88UC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  E:\ruanjian\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\Application\STM32Cube_FW_L1_V1.6.0\Projects\STM32L152D_NMDT_ADAM\Templates\MDK-ARM\Project.uvprojx
+Project File Date:  06/21/2017
+
+<h2>Output:</h2>
+Build target 'STM32L152D_EVAL'
+assembling startup_stm32l152xd.s...
+compiling stm32l1xx_it.c...
+compiling stm32l1xx_hal_msp.c...
+compiling main.c...
+..\Inc\myiic.h(20): warning:  #1295-D: Deprecated declaration SDA_OUT - give arg types
+  void SDA_OUT();
+..\Inc\myiic.h(21): warning:  #1295-D: Deprecated declaration SDA_IN - give arg types
+  void SDA_IN();         
+..\Inc\at_iic.h(20): warning:  #1295-D: Deprecated declaration FM_SDA_OUT - give arg types
+  void FM_SDA_OUT();
+..\Inc\at_iic.h(21): warning:  #1295-D: Deprecated declaration FM_SDA_IN - give arg types
+  void FM_SDA_IN();      
+..\Inc\at24c512.h(57): warning:  #1-D: last line of file ends without a newline
+        
+..\Src\main.c(223): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                        HAL_UART_Transmit(&huart2,rx_buffer,sizeof(rx_buffer),1000);
+..\Src\main.c(232): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                          HAL_UART_Transmit(&huart1,rx1_buffer,sizeof(rx1_buffer),1000);
+..\Src\main.c(272): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                if(number1<0)
+..\Src\main.c(297): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                if(number5<0)
+..\Src\main.c(321): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                        if(number5<0)
+..\Src\main.c(350): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                if(M<0)
+..\Src\main.c(448): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                if(nian<0)
+..\Src\main.c(456): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                if(yue<0)
+..\Src\main.c(464): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                if(ri<0)
+..\Src\main.c(472): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                if(shi<0)
+..\Src\main.c(480): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                if(fen<0)
+..\Src\main.c(488): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                if(miao<0)
+..\Src\main.c(555): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                        if(number2<0)
+..\Src\main.c(581): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                        if(number4<0)
+..\Src\main.c(634): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(a1<0)
+..\Src\main.c(641): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(b1<0)
+..\Src\main.c(648): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(c1<0)
+..\Src\main.c(704): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(a2<0)
+..\Src\main.c(711): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(b2<0)
+..\Src\main.c(718): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(c2<0)
+..\Src\main.c(773): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(a3<0)
+..\Src\main.c(780): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(b3<0)
+..\Src\main.c(787): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(c3<0)
+..\Src\main.c(858): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(a4<0)
+..\Src\main.c(865): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(b4<0)
+..\Src\main.c(872): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(c4<0)
+..\Src\main.c(879): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(d4<0)
+..\Src\main.c(886): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(e4<0)
+..\Src\main.c(941): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(a5<0)
+..\Src\main.c(948): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(b5<0)
+..\Src\main.c(955): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(c5<0)
+..\Src\main.c(1010): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(a6<0)
+..\Src\main.c(1017): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(b6<0)
+..\Src\main.c(1024): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(c6<0)
+..\Src\main.c(1080): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(a7<0)
+..\Src\main.c(1087): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(b7<0)
+..\Src\main.c(1094): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                                        if(c7<0)
+..\Src\main.c(1105): warning:  #111-D: statement is unreachable
+                                                                        OLED_Clear();
+..\Src\main.c(1110): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                                                                HAL_UART_Transmit(&huart2,disp_buf,sizeof(disp_buf),1000);
+..\Src\main.c(1115): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                                                                HAL_UART_Transmit(&huart2,disp_buf,sizeof(disp_buf),1000);
+..\Src\main.c(1120): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                                                                HAL_UART_Transmit(&huart2,disp_buf,sizeof(disp_buf),1000);
+..\Src\main.c(1125): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                                                                HAL_UART_Transmit(&huart2,disp_buf,sizeof(disp_buf),1000);
+..\Src\main.c(1130): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                                                                HAL_UART_Transmit(&huart2,disp_buf,sizeof(disp_buf),1000);
+..\Src\main.c(1135): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                                                                HAL_UART_Transmit(&huart2,disp_buf,sizeof(disp_buf),1000);
+..\Src\main.c(1140): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                                                                HAL_UART_Transmit(&huart2,disp_buf,sizeof(disp_buf),1000);
+..\Src\main.c(1167): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                                                if(number1<0)
+..\Src\main.c(1237): warning:  #111-D: statement is unreachable
+                                                OLED_ZhuMenu();
+..\Src\main.c(1250): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                        if(number<0)
+..\Src\main.c(1276): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                if(number1<0)
+..\Src\main.c(90): warning:  #177-D: variable "read_buf" was declared but never referenced
+  static uint8_t read_buf[128];   //从EEPROM读数据存储的缓存
+..\Src\main.c(1414): warning:  #177-D: function "PCF8563_SetFunc" was declared but never referenced
+  static void PCF8563_SetFunc(void) 
+..\Src\main.c: 56 warnings, 0 errors
+compiling rtc.c...
+compiling usart.c...
+compiling myiic.c...
+..\Inc\myiic.h(20): warning:  #1295-D: Deprecated declaration SDA_OUT - give arg types
+  void SDA_OUT();
+..\Inc\myiic.h(21): warning:  #1295-D: Deprecated declaration SDA_IN - give arg types
+  void SDA_IN();         
+..\Src\myiic.c: 2 warnings, 0 errors
+compiling pcf8563.c...
+..\Inc\myiic.h(20): warning:  #1295-D: Deprecated declaration SDA_OUT - give arg types
+  void SDA_OUT();
+..\Inc\myiic.h(21): warning:  #1295-D: Deprecated declaration SDA_IN - give arg types
+  void SDA_IN();         
+..\Src\pcf8563.c: 2 warnings, 0 errors
+compiling gpio.c...
+compiling lcd.c...
+..\Src\lcd.c(75): warning:  #188-D: enumerated type mixed with another type
+        OLED_CS(1);
+..\Src\lcd.c(77): warning:  #188-D: enumerated type mixed with another type
+        OLED_DC(0);
+..\Src\lcd.c(78): warning:  #188-D: enumerated type mixed with another type
+        OLED_Read(1);
+..\Src\lcd.c(79): warning:  #188-D: enumerated type mixed with another type
+        OLED_Write(0);
+..\Src\lcd.c(82): warning:  #188-D: enumerated type mixed with another type
+    OLED_CS(0);
+..\Src\lcd.c(84): warning:  #188-D: enumerated type mixed with another type
+        OLED_CS(1);
+..\Src\lcd.c(95): warning:  #188-D: enumerated type mixed with another type
+        OLED_CS(1);
+..\Src\lcd.c(97): warning:  #188-D: enumerated type mixed with another type
+        OLED_DC(1);
+..\Src\lcd.c(98): warning:  #188-D: enumerated type mixed with another type
+        OLED_Read(1);
+..\Src\lcd.c(99): warning:  #188-D: enumerated type mixed with another type
+        OLED_Write(0);
+..\Src\lcd.c(102): warning:  #188-D: enumerated type mixed with another type
+        OLED_CS(0);
+..\Src\lcd.c(104): warning:  #188-D: enumerated type mixed with another type
+        OLED_CS(1);
+..\Src\lcd.c: 12 warnings, 0 errors
+compiling at_iic.c...
+..\Inc\at_iic.h(20): warning:  #1295-D: Deprecated declaration FM_SDA_OUT - give arg types
+  void FM_SDA_OUT();
+..\Inc\at_iic.h(21): warning:  #1295-D: Deprecated declaration FM_SDA_IN - give arg types
+  void FM_SDA_IN();      
+..\Src\at_iic.c: 2 warnings, 0 errors
+compiling at24c512.c...
+..\Inc\at_iic.h(20): warning:  #1295-D: Deprecated declaration FM_SDA_OUT - give arg types
+  void FM_SDA_OUT();
+..\Inc\at_iic.h(21): warning:  #1295-D: Deprecated declaration FM_SDA_IN - give arg types
+  void FM_SDA_IN();      
+..\Inc\at24c512.h(57): warning:  #1-D: last line of file ends without a newline
+        
+..\Src\at24c512.c(187): warning:  #940-D: missing return statement at end of non-void function "FM24C256_Check"
+  }
+..\Src\at24c512.c(214): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\at24c512.c: 5 warnings, 0 errors
+compiling key.c...
+..\Src\key.c(40): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\key.c: 1 warning, 0 errors
+compiling system_stm32l1xx.c...
+compiling stm32l1xx_hal_adc_ex.c...
+compiling stm32l1xx_hal_pwr.c...
+compiling stm32l1xx_hal_opamp.c...
+compiling stm32l1xx_hal_pcd.c...
+compiling stm32l1xx_hal_pcd_ex.c...
+compiling stm32l1xx_hal_flash_ex.c...
+compiling stm32l1xx_hal_dac.c...
+compiling stm32l1xx_hal_flash_ramfunc.c...
+compiling stm32l1xx_hal_cryp.c...
+compiling stm32l1xx_hal_uart.c...
+compiling stm32l1xx_ll_sdmmc.c...
+compiling stm32l1xx_hal_lcd.c...
+compiling stm32l1xx_hal_pwr_ex.c...
+compiling stm32l1xx_hal_opamp_ex.c...
+compiling stm32l1xx_ll_fsmc.c...
+compiling stm32l1xx_hal_dac_ex.c...
+compiling stm32l1xx_hal_adc.c...
+compiling stm32l1xx_hal_dma.c...
+compiling stm32l1xx_hal_comp.c...
+compiling stm32l1xx_hal_wwdg.c...
+compiling stm32l1xx_hal_spi.c...
+compiling stm32l1xx_hal_smartcard.c...
+compiling stm32l1xx_hal_nor.c...
+compiling stm32l1xx_hal_tim_ex.c...
+compiling stm32l1xx_hal_rtc.c...
+compiling stm32l1xx_hal_cryp_ex.c...
+compiling stm32l1xx_hal_irda.c...
+compiling stm32l1xx_hal_tim.c...
+compiling stm32l1xx_hal_flash.c...
+compiling stm32l1xx_hal_usart.c...
+compiling stm32l1xx_hal_i2s.c...
+compiling stm32l1xx_hal_iwdg.c...
+compiling stm32l1xx_hal_sd.c...
+compiling stm32l1xx_hal_spi_ex.c...
+compiling stm32l1xx_hal_i2c.c...
+compiling stm32l1xx_hal_rcc_ex.c...
+compiling stm32l1xx_hal_cortex.c...
+compiling stm32l1xx_hal_rtc_ex.c...
+compiling stm32l1xx_hal_sram.c...
+compiling stm32l1xx_hal_crc.c...
+compiling stm32l1xx_hal_rcc.c...
+compiling stm32l1xx_hal.c...
+compiling stm32l1xx_hal_gpio.c...
+compiling stm32l152d_eval.c...
+linking...
+Program Size: Code=31092 RO-data=4568 RW-data=208 ZI-data=2648  
+FromELF: creating hex file...
+"STM32L152D_EVAL\STM32L152D_EVAL.axf" - 0 Error(s), 80 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Administrator\Desktop\Application\STM32Cube_FW_L1_V1.6.0\Projects\STM32L152D_NMDT_ADAM\Templates\MDK-ARM\RTE
+  E:\ruanjian\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  E:\ruanjian\MDK5\ARM\PACK\Keil\STM32L1xx_DFP\1.1.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>

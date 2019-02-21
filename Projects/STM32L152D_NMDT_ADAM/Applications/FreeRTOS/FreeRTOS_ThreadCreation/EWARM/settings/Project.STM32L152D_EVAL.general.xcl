@@ -1,0 +1,15 @@
+"E:\ruanjian\IAR\arm\bin\armproc.dll" 
+
+"E:\ruanjian\IAR\arm\bin\armstlink.dll" 
+
+"C:\Users\Administrator\Desktop\Application\STM32Cube_FW_L1_V1.6.0\Projects\NMDT_ADAM\Applications\FreeRTOS\FreeRTOS_ThreadCreation\EWARM\STM32L152D_EVAL\Exe\Project.out" 
+
+--plugin "E:\ruanjian\IAR\arm\bin\armbat.dll" 
+
+--device_macro "E:\ruanjian\IAR\arm\config\debugger\ST\STM32L1xx.dmac" 
+
+--flash_loader "E:\ruanjian\IAR\arm\config\flashloader\ST\FlashSTM32L16xxx.board" 
+
+
+
+
